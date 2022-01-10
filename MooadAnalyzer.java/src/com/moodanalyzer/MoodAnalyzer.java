@@ -1,6 +1,8 @@
 package com.moodanalyzer;
 
-public class MoodAnalyzer {public String analyseMood(String mood) {
+public class MoodAnalyzer {
+	
+	public String analyseMood(String mood) {
 	try {
 		if (mood == null || mood.isEmpty()) {
 			throw new InvalidMoodException("null value passed");
