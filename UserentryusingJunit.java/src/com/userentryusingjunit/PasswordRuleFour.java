@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PasswordRuleThree {
+public class PasswordRuleFour {
 	public boolean passwrdRule(String inputStr) {
 		String passwordPattern = "^(?=.*[A-Z])(?=.*[0-9])[A-Za-z0-9]{8,}$";
 		Pattern regex = Pattern.compile(passwordPattern);
